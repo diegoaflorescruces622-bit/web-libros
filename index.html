@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS v5.3.8 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+        <script src="https://kit.fontawesome.com/261d7ef29a.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body class="bg-light">
+
+    <!-- 1. BARRA DE NAVEGACIÓN COMPACTA Y SIMÉTRICA -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-1 sticky-top" style="background-color: #343a40;">
+        <div class="container d-flex justify-content-between align-items-center">
+            
+            <!-- Logo en posición simétrica izquierda -->
+            <a class="navbar-brand m-0 p-0" href="#inicio" style="margin-left: 4% !important;">
+                <img src="img/logo.png" alt="Libros TecnológicoZ" class="img-fluid" style="max-height: 40px; width: auto; vertical-align: middle;">
+            </a>
+
+            <!-- Botón para dispositivos móviles -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menú de navegación alineado simétricamente a la derecha -->
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarNav" style="margin-right: 4% !important;">
+                <ul class="navbar-nav align-items-center gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fw-normal" style="font-size: 0.9rem;" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-50 fw-normal" style="font-size: 0.9rem;" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-50 fw-normal" style="font-size: 0.9rem;" href="#fotogaleria">Fotogaleria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-50 fw-normal" style="font-size: 0.9rem;" href="#contactos">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- 2. SECCIÓN: INICIO (HERO BANNER) -->
+    <section id="inicio" class="position-relative text-white text-center py-5 d-flex align-items-center" style="background: linear-gradient(rgba(30, 41, 59, 0.75), rgba(30, 41, 59, 0.75)), url('img/background.jpg') no-repeat center center/cover; min-height: 520px;">
+        <div class="container py-4">
+            <div class="row align-items-center justify-content-center g-4">
+                <div class="col-md-6 px-4">
+                    <h1 class="display-5 fw-normal mb-3" style="letter-spacing: 0.5px;">Gran Venta de Productos</h1>
+                    <p class="fs-6 text-white-50 mb-4" style="font-size: 0.95rem;">No te olvides de Comprar nuestros productos a los más bajos precios.</p>
+                    <div>
+                        <a href="#nosotros" class="btn btn-outline-light btn-sm rounded-0 px-4 opacity-75" style="font-size: 0.8rem; border-color: rgba(255,255,255,0.4);">Leer Mas...</a>
+                    </div>
+                </div>
+                <div class="col-md-5 text-center px-4">
+                    <img src="img/producto.jpg" alt="Startup" class="img-fluid shadow" style="max-height: 440px; width: auto;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. BARRA DE SUSCRIPCIÓN (SIEMPRE HORIZONTAL) -->
+    <div class="py-4" style="background-color: #2c323f;">
+        <div class="container">
+            <form class="d-flex flex-row justify-content-center align-items-center gap-3 flex-nowrap mx-auto" style="max-width: 800px;">
+                <div class="w-100">
+                    <input type="text" class="form-control rounded-1 border-0" placeholder="Ingresa tu Nombre" aria-label="Nombre" style="height: 38px; font-size: 0.9rem; padding-left: 12px;">
+                </div>
+                <div class="w-100">
+                    <input type="email" class="form-control rounded-1 border-0" placeholder="Ingresa tu Email" aria-label="Correo" style="height: 38px; font-size: 0.9rem; padding-left: 12px;">
+                </div>
+                <div class="flex-shrink-0">
+                    <button type="submit" class="btn btn-primary rounded-1 fw-normal border-0 px-4" style="background-color: #007bff; height: 38px; font-size: 0.9rem; white-space: nowrap;">Suscribirse..</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- 4. SECCIÓN: NOSOTROS (CARTAS Y TEXTO INFORMATIVO) -->
+    <section id="nosotros" class="py-1">
+        <div class="container my-5 pt-4">
+            <div class="row g-4 justify-content-center text-center">
+                <!-- Carta Uno -->
+                <div class="col-6 col-sm-4 col-md-3">
+                    <div class="card h-100 rounded-0 border-primary bg-white text-dark py-4 px-2">
+                        <div class="card-body p-0">
+                            <h5 class="card-title fw-semibold mb-2">Carta Uno</h5>
+                            <p class="card-text text-muted" style="font-size: 0.85rem; line-height: 1.4;">Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carta Dos -->
+                <div class="col-6 col-sm-4 col-md-3">
+                    <div class="card h-100 rounded-0 border-0 bg-primary text-white py-4 px-2 shadow-sm">
+                        <div class="card-body p-0">
+                            <h5 class="card-title fw-semibold mb-2">Carta Dos</h5>
+                            <p class="card-text text-white-50" style="font-size: 0.85rem; line-height: 1.4;">Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carta Tres -->
+                <div class="col-6 col-sm-4 col-md-3">
+                    <div class="card h-100 rounded-0 border-primary bg-white text-dark py-4 px-2">
+                        <div class="card-body p-0">
+                            <h5 class="card-title fw-semibold mb-2">Carta Tres</h5>
+                            <p class="card-text text-muted" style="font-size: 0.85rem; line-height: 1.4;">Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carta Cuatro -->
+                <div class="col-6 col-sm-4 col-md-3">
+                    <div class="card h-100 rounded-0 border-0 bg-primary text-white py-4 px-2 shadow-sm">
+                        <div class="card-body p-0">
+                            <h5 class="card-title fw-semibold mb-2">Carta Cuatro</h5>
+                            <p class="card-text text-white-50" style="font-size: 0.85rem; line-height: 1.4;">Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bloque Informativo Inferior -->
+        <div class="py-5" style="background-color: #f8f9fa;">
+            <div class="container text-center py-3">
+                <h2 class="fw-semibold mb-3 text-dark" style="font-size: 1.6rem;">Que Producto Ofrecen??</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 col-xl-9">
+                        <p class="text-muted mb-0" style="font-size: 0.88rem; line-height: 1.7; text-align: justify; text-justify: inter-word;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos expedita, fugiat, ut enim molestias debitis atque dolorum velit doloremque a id quo rem delectus sint possimus dolor doloribus numquam ipsa, ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laudantium recusandae, minima exercitationem voluptatem distinctio saepe ipsa, fuga sint, quis placeat autem! Ipsum fuga deleniti odio id, eveniet maiores placeat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- SECCIÓN: FOTOGALERIA (PERSONAL IMPORTANTE - CORRECCIÓN TOTAL) -->
+<section id="fotogaleria" class="py-5" style="background-color: #242963;">
+    <div class="container text-center text-white py-4">
+        <!-- Título -->
+        <h2 class="fw-semibold mb-3 fs-3" style="letter-spacing: 0.5px;">Personal Importante!!!</h2>
+        
+        <!-- Párrafo Descriptivo -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-10 col-xl-9">
+                <p class="text-white-50 opacity-75" style="font-size: 0.85rem; line-height: 1.6;">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde obcaecati ea magni quod nesciunt nostrum eius distinctio quos cum dolores nemo culpa ab earum, laborum pariatur, repudiandae excepturi impedit reprehenderit. ipsum dolor sit amet, consectetur adipisicing elit. Vel dignissimos illum tempore dolores porro eveniet dolor quisquam quod beatae perferendis et ipsam, molestiae numquam sit voluptate inventore, veritatis autem alias.
+                </p>
+            </div>
+        </div>
+
+        <!-- Cuadrícula nativa de Bootstrap (4 columnas perfectas) -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 justify-content-center text-dark px-2">
+            
+            <!-- Integrante 1: Miguel Pallin -->
+            <div class="col">
+                <div class="card h-100 border-0 rounded-0 bg-white shadow-sm pt-5 pb-4 px-2">
+                    <div class="card-body p-0 d-flex flex-column align-items-center justify-content-between">
+                        <div class="d-flex flex-column align-items-center w-100">
+                            <!-- Contenedor de la Imagen con su silueta original -->
+                            <div class="mb-4" style="width: 90px; height: 90px;">
+                                <img src="img/person.png" alt="Miguel Pallin" class="img-fluid" style="width: 100%; height: 100%; object-fit: contain;">
+                            </div>
+                            <h5 class="fw-bold fs-5 mb-2 text-dark">Miguel Pallin</h5>
+                            <p class="text-muted text-center px-2" style="font-size: 0.8rem; line-height: 1.4;">Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                        <!-- Iconos de Redes Sociales alineados abajo -->
+                        <div class="d-flex gap-4 justify-content-center w-100 mt-5 text-primary" style="font-size: 0.85rem;">
+                            <a href="#" class="text-decoration-none text-primary"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="text-decoration-none text-primary"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" class="text-decoration-none text-primary"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Integrante 2: Zayda Lopez -->
+            <div class="col">
+                <div class="card h-100 border-0 rounded-0 bg-white shadow-sm pt-5 pb-4 px-2">
+                    <div class="card-body p-0 d-flex flex-column align-items-center justify-content-between">
+                        <div class="d-flex flex-column align-items-center w-100">
+                            <div class="mb-4" style="width: 90px; height: 90px;">
+                                <img src="img/person.png" alt="Zayda Lopez" class="img-fluid" style="width: 100%; height: 100%; object-fit: contain;">
+                            </div>
+                            <h5 class="fw-bold fs-5 mb-2 text-dark">Zayda López</h5>
+                            <p class="text-muted text-center px-2" style="font-size: 0.8rem; line-height: 1.4;">Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                        <div class="d-flex gap-4 justify-content-center w-100 mt-5 text-primary" style="font-size: 0.85rem;">
+                            <a href="#" class="text-decoration-none text-primary"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="text-decoration-none text-primary"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" class="text-decoration-none text-primary"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Integrante 3: Gianina Ulloa -->
+            <div class="col">
+                <div class="card h-100 border-0 rounded-0 bg-white shadow-sm pt-5 pb-4 px-2">
+                    <div class="card-body p-0 d-flex flex-column align-items-center justify-content-between">
+                        <div class="d-flex flex-column align-items-center w-100">
+                            <div class="mb-4" style="width: 90px; height: 90px;">
+                                <img src="img/person.png" alt="Gianina Ulloa" class="img-fluid" style="width: 100%; height: 100%; object-fit: contain;">
+                            </div>
+                            <h5 class="fw-bold fs-5 mb-2 text-dark">Gianina Ulloa</h5>
+                            <p class="text-muted text-center px-2" style="font-size: 0.8rem; line-height: 1.4;">Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                        <div class="d-flex gap-4 justify-content-center w-100 mt-5 text-primary" style="font-size: 0.85rem;">
+                            <a href="#" class="text-decoration-none text-primary"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="text-decoration-none text-primary"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" class="text-decoration-none text-primary"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Integrante 4: Juan Rodriguez -->
+            <div class="col">
+                <div class="card h-100 border-0 rounded-0 bg-white shadow-sm pt-5 pb-4 px-2">
+                    <div class="card-body p-0 d-flex flex-column align-items-center justify-content-between">
+                        <div class="d-flex flex-column align-items-center w-100">
+                            <div class="mb-4" style="width: 90px; height: 90px;">
+                                <img src="img/person.png" alt="Juan Rodríguez" class="img-fluid" style="width: 100%; height: 100%; object-fit: contain;">
+                            </div>
+                            <h5 class="fw-bold fs-5 mb-2 text-dark">Juan Rodríguez</h5>
+                            <p class="text-muted text-center px-2" style="font-size: 0.8rem; line-height: 1.4;">Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                        <div class="d-flex gap-4 justify-content-center w-100 mt-5 text-primary" style="font-size: 0.85rem;">
+                            <a href="#" class="text-decoration-none text-primary"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="text-decoration-none text-primary"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" class="text-decoration-none text-primary"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- SECCIÓN: CONTACTOS (CORRECCIÓN DE ESTILO Y BORDES EXACTOS) -->
+<section id="contactos" class="py-5 bg-white">
+    <div class="container py-4" style="max-width: 650px;">
+        <!-- Títulos alineados a la izquierda -->
+        <div class="text-start mb-4">
+            <h2 class="fw-semibold text-dark mb-1" style="font-size: 1.5rem; font-family: sans-serif;">Mensaje aqui!!!</h2>
+            <p class="text-muted" style="font-size: 0.85rem;">Lorem ipsum dolor sit amet, consectetur.</p>
+        </div>
+
+        <!-- Formulario con bordes y paleta exacta -->
+        <form>
+            <!-- Campo: Apellidos y Nombres -->
+            <div class="input-group mb-3 rounded-0" style="border: 1px solid #ced4da;">
+                <span class="input-group-text bg-light border-0 px-3 text-secondary" style="border-right: 1px solid #ced4da !important; border-radius: 0;">
+                    <i class="fa-solid fa-user" style="font-size: 0.85rem;"></i>
+                </span>
+                <input type="text" class="form-control border-0 py-2 rounded-0" placeholder="Apellidos y Nombres" aria-label="Apellidos y Nombres" style="font-size: 0.85rem; background-color: #fff;">
+            </div>
+
+            <!-- Campo: Correo Electrónico -->
+            <div class="input-group mb-3 rounded-0" style="border: 1px solid #ced4da;">
+                <span class="input-group-text bg-light border-0 px-3 text-secondary" style="border-right: 1px solid #ced4da !important; border-radius: 0;">
+                    <i class="fa-solid fa-envelope" style="font-size: 0.85rem;"></i>
+                </span>
+                <input type="email" class="form-control border-0 py-2 rounded-0" placeholder="Correo Electronico" aria-label="Correo Electronico" style="font-size: 0.85rem; background-color: #fff;">
+            </div>
+
+            <!-- Campo: Déjanos aquí tu Mensaje -->
+            <div class="input-group mb-4 rounded-0 align-items-stretch" style="border: 1px solid #ced4da;">
+                <span class="input-group-text bg-light border-0 px-3 text-secondary d-flex align-items-start pt-3" style="border-right: 1px solid #ced4da !important; border-radius: 0; min-width: 44px;">
+                    <i class="fa-solid fa-pencil" style="font-size: 0.85rem;"></i>
+                </span>
+                <textarea class="form-control border-0 py-2 rounded-0" placeholder="Dejanos aqui tu Mensaje" aria-label="Dejanos aqui tu Mensaje" rows="7" style="font-size: 0.85rem; background-color: #fff; resize: none;"></textarea>
+            </div>
+
+            <!-- Botón Enviar con bordes totalmente rectos (rounded-0) -->
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary rounded-0 px-4 border-0 fw-normal" style="background-color: #007bff; font-size: 0.85rem; padding-top: 7px; padding-bottom: 7px;">Enviar</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+        <footer class= "py-3 text-center" style="background-color: #242963; color: #ffffff;">
+            <p>Todos los derechos reservados a &copy;Diego Alonso Flores Cruces 2026</p>
+    
+        </footer>
+        <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
